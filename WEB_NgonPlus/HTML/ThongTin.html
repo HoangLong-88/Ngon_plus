@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+ <style>
+    body {
+      margin: 0;
+    }
+    .navbar-custom {
+      background-color:	#ceab8c;
+    }
+    .navbar-dark .navbar-nav .nav-link,
+    .navbar-dark .navbar-brand {
+      color: #1e2749;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+    .navbar-nav .nav-link {
+      margin-right: 20px;
+      margin-top: 15px;
+    }
+    .nav-highlight {
+      background-color: #1e2849;
+      padding: 10px 20px;
+      border-radius: 0;
+    }
+    .nav-highlight .nav-link {
+      color: white !important;
+      font-weight: bold;
+    }
+    .dropdown-toggle::after {
+      margin-left: 5px;
+    }
+  .menu-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  </style>
+</head>
+<body>
+    <div id="navbarmenu">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom px-5 fixed-top">
+            <a class="navbar-brand" href="#">NGON+</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="HomePage.html">TRANG CHỦ</a></li>
+                <li class="nav-item"><a class="nav-link" href="ThongTin.html" style="color: #ffffff;">NGON+ NEWS</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                    DRINK
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Sản phẩm 1</a></li>
+                    <li><a class="dropdown-item" href="#">Sản phẩm 2</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">ĐỊA CHỈ</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">LIÊN HỆ</a></li>
+                <li class="nav-item nav-highlight"><a class="nav-link" href="#">NHƯỢNG QUYỀN →</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div id="center" class="pt-5 mt-5">
+        <div class="container">
+    <div class="row">
+       <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex">
+            <div class="card h-100 d-flex flex-column" style="width: 18rem;">
+                <img src="../img/cafe-san-vuon-co-dien.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Tại sao nên chọn Ngon Plus là nơi dừng chân?</h5>
+                    <p class="card-text">Khuôn viên quán mang lại cho quý khách một cảm giác không nơi nào có được.</p>
+                </div>
+                </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex">
+            <div class="card h-100 d-flex flex-column" style="width: 18rem;">
+                <img src="../img/nhanvienphache.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nước ngon, nhân viên tốt tại sao không thử</h5>
+                    <p class="card-text">Tất cả các nhân viên của Ngon Plus luôn luôn phục vụ tận tâm, niềm nở với khách hàng.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-3 mb-4 d-flex">
+            <div class="card h-100 d-flex flex-column" style="width: 18rem;">
+                <img src="../img/tra-dao-cam-xa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Trà đào cam xả mới! Bạn đã thử chưa?</h5>
+                    <p class="card-text">Ngon Plus đem tới cho bạn món trà với vị ngọt thanh và hương thơm khó cư.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-3 mb-4 d-flex">
+            <div class="card h-100 d-flex flex-column" style="width: 18rem;">
+                <img src="../img/tra-chanh-gia-tay.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Trà chanh giã tay mới!!!</h5>
+                    <p class="card-text">Trà chanh giã tay hot trend mạng xã hội đã chính thức cập bên Ngon Plus. Mua ngay!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
+</body>
+</html>

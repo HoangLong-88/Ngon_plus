@@ -1,0 +1,9 @@
+body {
+}
+#navbarmenu{
+    max-height: 260px;
+}
+#center {
+    min-height: 700px;
+    background-color: rgb(209, 225, 248);
+}
