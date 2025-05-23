@@ -8,7 +8,8 @@ body {
     background-color: rgb(209, 225, 248);
 }
 #center #centerform{
-    min-width: 500px;
+    min-width: 450px;
+    width: 100%;
 }
 
 #footer{
