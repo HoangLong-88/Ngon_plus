@@ -32,3 +32,29 @@
     border-radius: 10px; /* Tùy chọn: cho đẹp hơn */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Tùy chọn: đổ bóng */
   }
+  .star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 2rem;
+  justify-content: center;
+  gap: 0.1rem;
+}
+
+.star-rating input {
+  display: none;
+}
+
+.star-rating label {
+  color: #ddd;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.star-rating input:checked ~ label {
+  color: #f5b301;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5b301;
+}
