@@ -1,5 +1,4 @@
-body {
-}
+
 #navbarmenu{
     max-height: 250px;
 }
@@ -9,9 +8,8 @@ body {
 }
 #center #centerform{
     min-width: 450px;
-    width: 100%;
 }
 
 #footer{
-    max-height: 120px;
+    max-height: 70px;
 }
