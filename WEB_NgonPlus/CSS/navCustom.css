@@ -29,7 +29,7 @@ body {
     }
 .nav-link{
   position: relative;
-  color: white !important;
+  color: #1e2849 !important;
   padding-bottom: 5px;
   text-decoration: none;
 }
@@ -40,7 +40,7 @@ body {
   bottom: 0;
   width: 0%;
   height: 2px;
-  background-color: white;
+  background-color: #1e2849;
   transition: width 0.3s ease, left 0.3s ease ;
   transform: translateX(-50%);
 }
